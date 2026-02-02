@@ -353,7 +353,7 @@
     width: 90px;
     height: 90px;
     background: var(--bs-primary);
-    border: 15px solid var(--bs-white);
+    border: 1px solid var(--bs-white);
 }
 
 .twentytwenty-wrapper {

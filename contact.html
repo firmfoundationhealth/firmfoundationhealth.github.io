@@ -50,12 +50,12 @@
 
     <!-- Topbar Start -->
     <div class="container-fluid px-0 d-none d-lg-block">
-        <div class="row gx-0">
+        <div class="row gx-0 text-light">
             <div class="col-lg-4 text-center bg-light py-3">
                 <div class="d-inline-flex align-items-center justify-content-center">
                     <i class="bi bi-envelope fs-1 text-primary me-3"></i>
                     <div class="text-start">
-                        <h6 class="mb-1">Email Us</h6>
+                        <h6 class="mb-1 text-light">Email Us</h6>
                         <span>info@firmfoundation-health.com</span>
                     </div>
                 </div>
@@ -71,7 +71,7 @@
                 <div class="d-inline-flex align-items-center justify-content-center">
                     <i class="bi bi-phone-vibrate fs-1 text-primary me-3"></i>
                     <div class="text-start">
-                        <h6 class="mb-1">Call Us</h6>
+                        <h6 class="mb-1 text-light">Call Us</h6>
                         <span>+1 302-760-5510</span><br>
                         <span>+1 833-764-3989(fax)</span><br>
                         <span>+1 302-744-8007(fax)</span>
@@ -89,21 +89,21 @@
             <img src="img/logo/ff-logo.png" alt="Logo" class="img-fluid" style="width: 150px;">
         </a>
         <div class="d-none d-lg-flex w-25">
-            <a href="index.html" class="btn btn-light px-3">
+            <a href="index.html" class="btn px-3">
                 <img src="img/logo/ff-logo.png" alt="Logo" class="img-fluid" style="width: 150px;">
             </a>
         </div>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="collapse navbar-collapse text-light" id="navbarCollapse">
             <div class="navbar-nav mx-auto bg-light py-3 py-lg-0 px-3">
                 <a href="index.html" class="nav-item nav-link">Home</a>
                 <div class="nav-item dropdown">
                     <a href="team.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
                     <div class="dropdown-menu bg-light border-0 m-0">
-                        <a href="about.html" class="nav-item nav-link">Firm Foundation</a>
-                        <a href="team.html" class="nav-item nav-link">Team</a>
+                        <a href="about.html" class="nav-item nav-link text-light">Firm Foundation</a>
+                        <a href="team.html" class="nav-item nav-link text-light">Team</a>
                     </div>
                 </div>
                 <a href="service.html" class="nav-item nav-link">Our Services</a>
@@ -120,7 +120,7 @@
 
 
     <!-- Page Header Start -->
-    <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid page-header py-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <h1 class="display-3 mb-3">Contact Us</h1>
             <nav aria-label="breadcrumb">
@@ -133,11 +133,16 @@
     </div>
     <!-- Page Header End -->
 
+    <!-- Marquee Start -->
+    <marquee width="100%" direction="left" height="40px" class="bg-primary py-3" loop="infinite">
+        <h4 class="text-secondary">Now Accepting New Patients!</h4>
+    </marquee>
+    <!-- Marquee End -->
 
     <!-- Get In Touch Start -->
     <div class="container-fluid py-5">
         <div class="container">
-            <div class="row g-4">
+            <div class="row g-4 text-light">
                 <div class="col-md-4 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="bg-light h-100 p-4">
                         <div class="d-flex align-items-center mb-4">
@@ -145,7 +150,7 @@
                                 <i class="fa fa-phone text-white"></i>
                             </div>
                             <i class="fa fa-arrow-right text-primary ms-n1 me-2"></i>
-                            <h4 class="mb-0">Call Us</h4>
+                            <h4 class="mb-0 text-light">Call Us</h4>
                         </div>
                         <span class="fs-5">+1 302-760-5510</span>
                     </div>
@@ -157,7 +162,7 @@
                                 <i class="fa fa-calendar-alt text-white"></i>
                             </div>
                             <i class="fa fa-arrow-right text-primary ms-n1 me-2"></i>
-                            <h4 class="mb-0">Mail Us</h4>
+                            <h4 class="mb-0 text-light">Mail Us</h4>
                         </div>
                         <span class="fs-5">info@firmfoundation-health.com</span>
                     </div>
@@ -169,7 +174,7 @@
                                 <i class="fa fa-phone text-white"></i>
                             </div>
                             <i class="fa fa-arrow-right text-primary ms-n1 me-2"></i>
-                            <h4 class="mb-0">Fax Us</h4>
+                            <h4 class="mb-0 text-light">Fax Us</h4>
                         </div>
                         <span class="fs-5">+1 302-744-8007</span>
                     </div>
@@ -181,7 +186,7 @@
                                 <i class="fa fa-users text-white"></i>
                             </div>
                             <i class="fa fa-arrow-right text-primary ms-n1 me-2"></i>
-                            <h4 class=" mb-0">Address</h4>
+                            <h4 class=" mb-0 text-light">Address</h4>
                         </div>
                         <span class="fs-5">766 South State street, Dover, DE 19901</span>
                     </div>
@@ -198,15 +203,15 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                     <h1 class="display-5 mb-5">Have Any Questions? Feel Free To Talk To Us</h1>
-                    <p class="mb-4">
+                    <!-- <p class="mb-4">
                         If you have any questions or need further information, please don't hesitate to reach out to us.
                         Our team is here to assist you with any inquiries you may have regarding our services,
                         membership
                         options or general information about Firm Foundation LLC. We look forward to hearing from you
                         and
                         providing the support you need.
-                    </p>
-                    <form>
+                    </p> -->
+                    <form class="mb-3">
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
@@ -238,6 +243,18 @@
                             </div>
                         </div>
                     </form>
+                    <p class="">
+                            This schedule is subject to modification due to inclement weather, holidays, and other unforeseen circumstances.
+                        
+                            AFTER HOURS
+                        
+                            Please dial 911 or visit your nearest emergency department for medical emergencies or symptoms that may indicate a
+                            heart attack, overdose, or severe injuries.
+                        
+                            Additionally, if you are experiencing a psychiatric or substance abuse crisis and require assistance, please contact
+                            911 or Mobile Crisis Intervention Services (MCIS): (please include the additional details I had in the initial text
+                            for this part) which is the number to be called.
+                    </p>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s" style="min-height: 450px;">
                     <div class="position-relative rounded overflow-hidden h-100">
